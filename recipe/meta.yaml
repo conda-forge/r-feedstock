@@ -18,7 +18,7 @@ requirements:
 test:
   commands:
     - $R -e "library('MASS')"  # [not win]
-    - "\"%R%\" -e \"library('MASS')\"" # [win]
+    - "\"%R%\" -e \"library('MASS')\""  # [win]
 
 about:
   home: http://www.r-project.org/
