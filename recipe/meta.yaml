@@ -13,6 +13,13 @@ requirements:
     - r-base {{ version }}
     - r-recommended {{ version }}
 
+# test to force the test env creation
+# if any dependency is missing the test env creation will fail
+test:
+  commands:
+    - $R -e "library('MASS')"  # [not win]
+    - "\"%R%\" -e \"library('MASS')\"" # [win]
+
 about:
   home: http://www.r-project.org/
   license: GPL-3.0
