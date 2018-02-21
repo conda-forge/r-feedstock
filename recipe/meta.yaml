@@ -1,4 +1,4 @@
-{% set version = "3.3.2" %}
+{% set version = "3.4.1" %}
 
 package:
   name: r
@@ -12,6 +12,13 @@ requirements:
   run:
     - r-base {{ version }}
     - r-recommended {{ version }}
+
+# test to force the test env creation
+# if any dependency is missing the test env creation will fail
+test:
+  commands:
+    - $R -e "library('MASS')"  # [not win]
+    - "\"%R%\" -e \"library('MASS')\""  # [win]
 
 about:
   home: http://www.r-project.org/
