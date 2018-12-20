@@ -6,6 +6,7 @@ package:
 
 build:
   number: 1000
+  noarch: generic
 
 requirements:
   host:
@@ -26,8 +27,7 @@ about:
   license: GPL-3.0
   summary: 'R is a free software environment for statistical computing and graphics.'
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
