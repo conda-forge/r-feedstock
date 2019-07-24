@@ -1,19 +1,17 @@
-{% set version = "3.5.1" %}
-
 package:
   name: r
-  version: {{ version }}
+  version: {{ r_base }}
 
 build:
-  number: 1001
+  number: 1002
   noarch: generic
 
 requirements:
   host:
-    - r-base {{ version }}
+    - r-base
   run:
-    - r-base {{ version }}
-    - r-recommended {{ version }}
+    - r-base
+    - r-recommended
 
 # test to force the test env creation
 # if any dependency is missing the test env creation will fail
@@ -31,9 +29,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
+    - conda-forge/r
