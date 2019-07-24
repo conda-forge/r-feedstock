@@ -3,7 +3,7 @@ package:
   version: {{ r_base }}
 
 build:
-  number: 1002
+  number: 1003
   noarch: generic
 
 requirements:
@@ -29,4 +29,10 @@ about:
 
 extra:
   recipe-maintainers:
-    - conda-forge/r
+    - johanneskoester
+    - bgruening
+    - daler
+    - jdblischak
+    - cbrueffer
+    - dbast
+    - dpryan79
