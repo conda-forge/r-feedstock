@@ -3,7 +3,7 @@ package:
   version: {{ r_base }}
 
 build:
-  number: 1003
+  number: 1004
   noarch: generic
 
 requirements:
@@ -12,6 +12,7 @@ requirements:
   run:
     - r-base
     - r-recommended
+    - mscorefonts
 
 # test to force the test env creation
 # if any dependency is missing the test env creation will fail
