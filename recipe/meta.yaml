@@ -29,6 +29,7 @@ about:
 
 extra:
   recipe-maintainers:
+    # N.B., this is the master list of users who (aside from conda-forge/core) maintain R packages across conda-forge. Edit with care!
     - johanneskoester
     - bgruening
     - daler
