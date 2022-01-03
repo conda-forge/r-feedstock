@@ -120,6 +120,5 @@ Feedstock Maintainers
 * [@daler](https://github.com/daler/)
 * [@dbast](https://github.com/dbast/)
 * [@dpryan79](https://github.com/dpryan79/)
-* [@jdblischak](https://github.com/jdblischak/)
 * [@johanneskoester](https://github.com/johanneskoester/)
 
