@@ -3,7 +3,7 @@ package:
   version: {{ r_base }}
 
 build:
-  number: 1004
+  number: 1005
   noarch: generic
 
 requirements:
@@ -36,3 +36,4 @@ extra:
     - cbrueffer
     - dbast
     - dpryan79
+    - mfansler
