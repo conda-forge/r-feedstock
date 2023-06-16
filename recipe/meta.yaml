@@ -3,7 +3,7 @@ package:
   version: {{ r_base }}
 
 build:
-  number: 1006
+  number: 1007
   noarch: generic
 
 requirements:
