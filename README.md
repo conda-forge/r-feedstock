@@ -1,11 +1,11 @@
-About r
-=======
+About r-feedstock
+=================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.r-project.org/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-feedstock/blob/main/LICENSE.txt)
 
 Summary: R is a free software environment for statistical computing and graphics.
 
