@@ -146,6 +146,7 @@ Feedstock Maintainers
 * [@bgruening](https://github.com/bgruening/)
 * [@cbrueffer](https://github.com/cbrueffer/)
 * [@daler](https://github.com/daler/)
+* [@danielnachun](https://github.com/danielnachun/)
 * [@dbast](https://github.com/dbast/)
 * [@dpryan79](https://github.com/dpryan79/)
 * [@johanneskoester](https://github.com/johanneskoester/)
