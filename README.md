@@ -195,4 +195,5 @@ Feedstock Maintainers
 * [@dpryan79](https://github.com/dpryan79/)
 * [@johanneskoester](https://github.com/johanneskoester/)
 * [@mfansler](https://github.com/mfansler/)
+* [@roaldarbol](https://github.com/roaldarbol/)
 
